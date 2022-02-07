@@ -1,0 +1,75 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--light-gray);
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    width: 300px;
+    height: 470px;
+    background: var(--white);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.image-qr {
+    width: 270px;
+    height: 270px;
+    margin: 15px;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.h1-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 50px;
+    margin: 15px 0 10px 0;
+}
+
+.h1-container h1 {
+    font-size: 20px;
+    font-weight: bolder;
+    color: var(--dark-blue);
+    text-align: center;
+    padding: 5px;
+}
+
+.p-container {
+    font-size: 15px;
+    width: 250px;
+    height: 100px;
+    color: var(--grayish-blue);
+    text-align: center;
+}
+
+.attribution {
+    text-align: center;
+}
